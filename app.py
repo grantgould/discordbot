@@ -28,7 +28,7 @@ class App(discord.Client):
 # Client Token
 token = os.environ['token']
 
-# Asign Lowercase App Name
+# Assign Lowercase App Name
 app = App()
 
 # Run App with Token
