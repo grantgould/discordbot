@@ -1,0 +1,11 @@
+version: '2.1'
+
+services:
+  discordbot:
+    image: discordbot
+    build: .
+    command: python app.py
+    ports:
+      - 8000:8000
+    env_file:
+      - .env
